@@ -1,0 +1,8 @@
+2023-09-28 11:05:05  INFO User mones17 has changed the API mode to Mocking, for adam.host.mx, sv/example/1
+2023-09-28 11:05:23  INFO User mones17 has changed the API mode to Transparent, for adam.host.mx, sv/example/1
+2023-09-28 11:05:24  INFO User mones17 has changed the API mode to Transparent, for adam.host.mx, sv/example/1
+2023-09-28 11:06:51  INFO User mones17 has changed the API mode to Recording, for adam.host.mx, sv/example/2
+2023-09-28 12:23:44  INFO User mones17 has changed the API mode to Transparent, for example.host.com.mx, sv/example/1
+2023-09-28 12:26:01  INFO User mones17 has changed the API mode to Transparent, for example.host.com.mx, sv/example/1
+2023-09-28 12:49:32  INFO User mones17 has changed the API mode to Transparent, for example.host.com.mx, sv/example/1
+2023-09-28 12:53:32  INFO User mones17 has changed the API mode to Transparent, for adxe-qa.tkg-rms-qae.usdc01.solera.farm, api/Service/VidSvr

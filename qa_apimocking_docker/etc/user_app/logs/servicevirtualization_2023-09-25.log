@@ -1,0 +1,15 @@
+2023-09-25 17:08:46  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1NzQ4MTI2fQ.5-xou2GPgl1Xrp9HkAortWKIWcx7S034jV-ijKZRVQjnJPJczC5c94fn5yYoEPks77AM0uf1xTMxC2lh6JwPoQ by bearer type.
+2023-09-25 17:09:02  WARNING The user mones17 try to create user: usertest which is an existing user.
+2023-09-25 17:10:13  WARNING User mones17 try to delete inexsting user with ID: 684615e1-724c-452f-9d57-d6c9a51c5295.
+2023-09-25 17:12:58  WARNING User mones17 try to reset his password but get this error(s): Password must contain at least 1 special character..
+2023-09-25 17:15:53  WARNING User mones17 try to reset his password but get this error(s): Password must contain at least 1 special character..
+2023-09-25 20:48:47  INFO User mones17 reset his password.
+2023-09-25 20:48:58  WARNING User mones17 try to reset his password but get this error(s): Password must contain at least 1 special character..
+2023-09-25 20:49:04  WARNING User mones17 try to reset his password but get this error(s): Password must contain at least 8 characters and maximum 20..
+2023-09-25 20:49:11  WARNING User mones17 try to reset his password but get this error(s): Password must contain at least 1 number. Password must contain at least 1 special character..
+2023-09-25 20:50:08  INFO User mones17 reset his password.
+2023-09-25 22:43:17  WARNING Try to login with inexisting user: carmun.
+2023-09-25 22:43:24  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1NzY4MjA0fQ.1CFafqFPG2oHcQScYkjmIhbNMhU3bE-dCCEoChuwzUxHqa8SMuHh01gLmSb_-h60SejHPHFT8rN3AJI0ftuQ-w by bearer type.
+2023-09-25 22:46:03  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1NzY4MzYzfQ.YBJ3Qa2r1HUSURF9TP7LoP0sB9NWIglni-E55c7A-ZyFgPWGIPuXJeTcjNE9T8ui1-tFIsgtNZkcXuXmPxhAkg by bearer type.
+2023-09-25 22:52:33  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1NzY4NzUzfQ.5uQ0bdhBS1mdnc0wd-g5L94nry4R_a-UBzWWyIfEMxYSzxFr8yPAJt6tT5fnquUicD_B36INi7ZfWWdK-ZXzvw by bearer type.
+2023-09-25 23:02:07  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1NzY5MzI3fQ.PrD0L2u5rbDsq_YtJ0ua5SkbmAPuWVRGG4hX-dq8kNGtnmrFiQpsmaOW1aNgNAr77eErhXTBJSsFNBfePV3rOw by bearer type.

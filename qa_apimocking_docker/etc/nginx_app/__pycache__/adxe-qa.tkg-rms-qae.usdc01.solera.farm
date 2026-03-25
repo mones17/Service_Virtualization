@@ -1,0 +1,56 @@
+upstream adxe-qa.tkg-rms-qae.usdc01.solera.farm.actual {
+    server 10.132.76.14:443;
+}
+server{
+    listen       443 ssl;
+    listen  [::]:443 ssl;
+    server_name  adxe-qa.tkg-rms-qae.usdc01.solera.farm;
+    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
+    ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
+    ssl_dhparam /etc/ssl/certs/dhparam.pem;
+    # {new_location_block}
+    location /api/Service/VidSvr {
+        proxy_pass http://python;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location / {
+        proxy_pass https://adxe-qa.tkg-rms-qae.usdc01.solera.farm.actual;
+        proxy_redirect     off;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+}
+server {
+    listen       80;
+    listen  [::]:80;
+    server_name  adxe-qa.tkg-rms-qae.usdc01.solera.farm;
+    # {new_location_block}
+    location /api/Service/VidSvr {
+        proxy_pass http://python;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location / {
+        proxy_pass https://adxe-qa.tkg-rms-qae.usdc01.solera.farm.actual;
+        proxy_redirect     off;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+}

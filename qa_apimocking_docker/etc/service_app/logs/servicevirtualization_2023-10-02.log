@@ -1,0 +1,22 @@
+2023-10-02 11:19:57  INFO User mones17 requested his services permissions.
+User mones17 requested his services permissions.
+2023-10-02 11:31:46  INFO User mones17 requested his services permissions.
+User mones17 requested his services permissions.
+2023-10-02 11:32:13  WARNING User mones17 attempted to delete permisions over example.host.com.mx service for user testDeploy, but the permission doesn't exist.
+User mones17 attempted to delete permisions over example.host.com.mx service for user testDeploy, but the permission doesn't exist.
+2023-10-02 11:32:36  WARNING User mones17 attempted to delete permisions over adxe-qa.tkg-rms-qae.usdc01.solera.farm service for user testDeploy, but the permission doesn't exist.
+User mones17 attempted to delete permisions over adxe-qa.tkg-rms-qae.usdc01.solera.farm service for user testDeploy, but the permission doesn't exist.
+2023-10-02 11:32:48  WARNING User mones17 attempted to delete permisions over adxe-qa.tkg-rms-qae.usdc01.solera.farm service for user usertest1, but the permission doesn't exist.
+User mones17 attempted to delete permisions over adxe-qa.tkg-rms-qae.usdc01.solera.farm service for user usertest1, but the permission doesn't exist.
+2023-10-02 11:33:16  INFO User mones17 requested his services permissions.
+User mones17 requested his services permissions.
+2023-10-02 11:33:56  INFO User mones17 requested all services permissions for user testDeploy.
+User mones17 requested all services permissions for user testDeploy.
+2023-10-02 11:34:04  INFO User mones17 requested all services permissions for user usertest1.
+User mones17 requested all services permissions for user usertest1.
+2023-10-02 11:34:11  INFO User mones17 add permisions over adam.host.mx service for user usertest1.
+User mones17 add permisions over adam.host.mx service for user usertest1.
+2023-10-02 11:37:07  INFO User mones17 requested all services permissions for user usertest1.
+User mones17 requested all services permissions for user usertest1.
+2023-10-02 16:58:31  INFO User mones17 requested all services permissions for user usertest1.
+User mones17 requested all services permissions for user usertest1.

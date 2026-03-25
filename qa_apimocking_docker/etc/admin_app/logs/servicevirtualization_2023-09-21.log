@@ -1,0 +1,22 @@
+2023-09-21 20:34:32  INFO User mones17 has changed the API mode to 1.
+2023-09-21 20:35:18  INFO User mones17 made some changes for Example, sv/example/1: Method POST updated to POST.
+2023-09-21 20:43:47  WARNING User 'mones17'ttempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-21 20:45:42  WARNING User 'mones17'ttempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-21 22:14:45  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-21 22:15:10  INFO User mones17 made some changes for Example, sv/example/1: Name route 1 updated to route 10.
+2023-09-21 22:15:14  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-21 22:15:46  INFO User mones17 made some changes for Example, sv/example/1: Name route 10 updated to route 1.
+2023-09-21 22:15:52  INFO User mones17 made some changes for Example, sv/example/1: Route sv/example/1 updated to sv/example/10. 
+2023-09-21 22:15:56  WARNING User mones17 attempted to made some changes for Example, but for non-existing resource.
+2023-09-21 22:15:59  WARNING User mones17 attempted to made some changes for Example, but for non-existing resource.
+2023-09-21 22:16:17  INFO User mones17 made some changes for Example, sv/example/10: Route sv/example/10 updated to sv/example/1. 
+2023-09-21 22:16:21  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-21 22:24:32  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: The name that you're trying to insert currently exist, please select other.
+2023-09-21 22:37:36  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: The name that you're trying to insert currently exist, please select other.
+2023-09-21 22:37:44  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-21 22:44:57  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: The name that you're trying to insert currently exist, please select other.
+2023-09-22 00:57:36  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-22 00:57:45  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-22 00:57:58  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-22 00:58:06  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-22 00:58:11  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.

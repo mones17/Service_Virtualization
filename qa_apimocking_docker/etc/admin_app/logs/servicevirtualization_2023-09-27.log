@@ -1,0 +1,66 @@
+2023-09-27 00:37:37  WARNING ('There was not any response to delete, attempted by user %s.', 'mones17')
+2023-09-27 00:52:28  INFO ('User %s attempted to delete response %s, for service %s, and the action was complted successfully.', 'mones17', '0b4e2602-3071-4b1e-8318-eb10343e30cf', 'c4cef286-3963-4598-850c-774c1d041798')
+2023-09-27 15:34:06  INFO ('The user %s attempted to accept response %s for %s, %s and the action was completed successfully.', 'mones17', 'Explore', None, '0c81281e-708f-40cb-b217-e64c5640d5ed')
+2023-09-27 15:34:27  INFO ('User %s added/updated a comment for %s, %s.', 'mones17', 'Explore', None)
+2023-09-27 15:39:07  WARNING User mones17 attempted to made some changes for Adam, but: The new host what you're gonna try to insert, currently exist.
+2023-09-27 15:39:18  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 15:40:20  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 15:41:08  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 15:41:15  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 15:41:53  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: The name that you're trying to insert currently exist, please select other.
+2023-09-27 15:42:09  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: The name that you're trying to insert currently exist, please select other.
+2023-09-27 16:17:04  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 16:18:15  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 16:19:23  INFO ('User %s made some changes for %s, %s: %s', 'mones17', 'Example', 'sv/example/1', 'Method POST updated to PUT.Name example updated to route .')
+2023-09-27 16:19:30  INFO ('User %s made some changes for %s, %s: %s', 'mones17', 'Example', 'sv/example/1', 'Name route  updated to route.')
+2023-09-27 16:19:34  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-27 16:19:37  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-27 16:20:00  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: The name that you're trying to insert currently exist, please select other.
+2023-09-27 16:20:05  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: The name that you're trying to insert currently exist, please select other.
+2023-09-27 16:20:13  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-27 16:20:20  INFO ('User %s made some changes for %s, %s: %s', 'mones17', 'Example', 'sv/example/1', 'Route sv/example/1 updated to sv/example/2. ')
+2023-09-27 16:20:26  INFO ('User %s made some changes for %s, %s: %s', 'mones17', 'Example', 'sv/example/2', 'Route sv/example/2 updated to sv/example/1. ')
+2023-09-27 16:20:29  WARNING User mones17 attempted to made some changes for Example, but for non-existing resource.
+2023-09-27 16:20:32  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-27 16:22:08  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: The name that you're trying to insert currently exist, please select other.
+2023-09-27 16:29:11  INFO ('User %s made some changes for %s, %s: %s', 'mones17', 'Example', 'sv/example/1', 'Name route updated to route 1.')
+2023-09-27 16:29:13  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-27 16:29:20  INFO ('User %s made some changes for %s, %s: %s', 'mones17', 'Example', 'sv/example/1', 'Name route 1 updated to route 2.')
+2023-09-27 16:29:26  INFO ('User %s made some changes for %s, %s: %s', 'mones17', 'Example', 'sv/example/1', 'Name route 2 updated to route 1.')
+2023-09-27 16:29:54  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 16:30:55  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 16:31:02  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 16:31:08  INFO ('User %s made some changes for %s: %s', 'mones17', 'Adam', 'Host adam.host.mx updated to adam.host. Name Adam updated to Adam1. ')
+2023-09-27 16:32:25  WARNING User mones17 attempted to made some changes for non-existing service adam.host.mx.
+2023-09-27 16:32:32  WARNING User mones17 attempted to made some changes for Adam1, but: Trying to submit a form without changes.
+2023-09-27 16:32:42  WARNING User mones17 attempted to made some changes for Adam1, but: Trying to submit a form without changes.
+2023-09-27 16:34:30  INFO ('User %s made some changes for %s: %s', 'mones17', 'Adam1', 'Host adam.host updated to adam.host.com. ')
+2023-09-27 16:34:37  WARNING User mones17 attempted to made some changes for non-existing service adam.host.
+2023-09-27 16:34:52  WARNING User mones17 attempted to made some changes for non-existing service adam.host.
+2023-09-27 16:34:58  INFO ('User %s made some changes for %s: %s', 'mones17', 'Adam1', 'Name Adam1 updated to Adam. ')
+2023-09-27 16:35:03  INFO ('User %s made some changes for %s: %s', 'mones17', 'Adam', 'Host adam.host.com updated to adam.host.com.mx. ')
+2023-09-27 16:35:06  WARNING User mones17 attempted to made some changes for non-existing service adam.host.com.
+2023-09-27 16:35:17  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 16:39:26  INFO ('User %s added a new service %s. The service was successfully added to the system.', 'mones17', 'test')
+2023-09-27 16:40:42  INFO ('User %s added a new route, %s, for service %s. The route was successfully added to the system.', 'mones17', 'route 1', 'test')
+2023-09-27 17:03:37  INFO User mones17 added/updated a comment for Explore, None.
+2023-09-27 17:09:50  INFO User mones17 added/updated a comment for Explore, VidSvr.
+2023-09-27 17:11:25  INFO User mones17 added/updated a comment: validUser12 for Explore, VidSvr.
+2023-09-27 17:44:31  INFO User %s has changed the API mode to %s, for %s, %s
+2023-09-27 17:44:52  INFO User %s has changed the API mode to %s, for %s, %s
+2023-09-27 18:32:59  INFO User mones17 has changed the API mode to 1, for example.host.com.mx, sv/example/1
+2023-09-27 18:34:57  INFO User mones17 has changed the API mode to 2, for example.host.com.mx, sv/example/1
+2023-09-27 18:35:24  INFO User mones17 has changed the API mode to 1, for example.host.com.mx, sv/example/1
+2023-09-27 18:47:44  INFO User mones17 has changed the API mode to Transparent, for example.host.com.mx, sv/example/1
+2023-09-27 18:48:07  INFO User mones17 has changed the API mode to Transparent, for example.host.com.mx, sv/example/1
+2023-09-27 18:48:16  INFO User mones17 has changed the API mode to Recording, for example.host.com.mx, sv/example/1
+2023-09-27 18:48:25  INFO User mones17 has changed the API mode to Recording, for example.host.com.mx, sv/example/1
+2023-09-27 18:48:37  INFO User mones17 has changed the API mode to Mocking, for example.host.com.mx, sv/example/1
+2023-09-27 18:49:01  INFO The user mones17 attempted to accept response Explore for VidSvr, 0c81281e-708f-40cb-b217-e64c5640d5ed and the action was completed successfully.
+2023-09-27 18:49:06  INFO The user mones17 attempted to reject response Explore for VidSvr, 0c81281e-708f-40cb-b217-e64c5640d5ed and the action was completed successfully.
+2023-09-27 18:49:26  WARNING User mones17 attempted to made some changes for Adam, but: Trying to submit a form without changes.
+2023-09-27 18:49:30  INFO User mones17 made some changes for Adam: Host adam.host.com.mx updated to adam.host.com. 
+2023-09-27 18:49:47  INFO User mones17 made some changes for Example, sv/example/1: Name route 1 updated to route 2.
+2023-09-27 18:49:48  WARNING User mones17 attempted to made some changes for Example, sv/example/1 but: Trying to submit a form without changes.
+2023-09-27 18:49:51  INFO User mones17 made some changes for Example, sv/example/1: Name route 2 updated to route 1.
+2023-09-27 23:47:45  INFO The user mones17 attempted to accept response Explore for None, 0c81281e-708f-40cb-b217-e64c5640d5ed and the action was completed successfully.

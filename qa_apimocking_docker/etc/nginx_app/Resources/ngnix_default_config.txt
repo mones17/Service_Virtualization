@@ -1,0 +1,34 @@
+upstream {upstream} {
+    server {ip_address_realAPI}:{real_port};
+}
+server{
+    listen       443 ssl;
+    listen  [::]:443 ssl;
+    server_name  {server_name};
+    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
+    ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
+    ssl_dhparam /etc/ssl/certs/dhparam.pem;
+    # {new_location_block}
+    location / {
+        proxy_pass https://{upstream}; # default_block
+        proxy_redirect     off;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+}
+server {
+    listen       80;
+    listen  [::]:80;
+    server_name  {server_name};
+    # {new_location_block}
+    location / {
+        proxy_pass http://{upstream}; # default_block
+        proxy_redirect     off;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+}

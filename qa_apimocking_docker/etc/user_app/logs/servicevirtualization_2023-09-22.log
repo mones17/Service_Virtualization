@@ -1,0 +1,9 @@
+2023-09-22 02:04:25  INFO The user mones17 made some changes for usertest1: Email usert.test1@solera.com updated to user.test1@solera.com. .
+2023-09-22 02:04:39  WARNING The user mones17 try to update user usertest1, but get this error(s): Trying to submit a form without changes..
+2023-09-22 02:04:41  WARNING The user mones17 try to update user usertest1, but get this error(s): Trying to submit a form without changes..
+2023-09-22 02:04:48  INFO The user mones17 made some changes for usertest1: Role user updated to users. .
+2023-09-22 02:04:50  WARNING The user mones17 try to update user usertest1, but get this error(s): Trying to submit a form without changes..
+2023-09-22 02:04:55  INFO The user mones17 made some changes for usertest1: Role users updated to user. .
+2023-09-22 02:05:06  WARNING The user mones17 try to update user usertest1, but get this error(s): The email that you're trying to insert already exist..
+2023-09-22 02:05:41  WARNING The user mones17 try to update user usertest1, but get this error(s): Trying to submit a form without changes..
+2023-09-22 19:54:04  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1NTg1MjQ0fQ.bodvnAgevyxfQi2ul7s40hl7Sf9eJRaShvvAqQKZ8Ba49xVLGHO74LvkCs_oxdunwpNnfs-7K3_wknlhLTpKVw by bearer type.

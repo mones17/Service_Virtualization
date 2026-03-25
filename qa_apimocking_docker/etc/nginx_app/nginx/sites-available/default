@@ -1,0 +1,167 @@
+server{
+    listen       443 ssl;
+	listen  [::]:443 ssl;
+	server_name  _;
+    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
+    ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
+    ssl_dhparam /etc/ssl/certs/dhparam.pem;
+	location /sv/routes/ {
+        proxy_pass http://nginx_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/admin/ {
+        proxy_pass http://admin_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/user/ {
+        proxy_pass http://user_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/service/ {
+        proxy_pass http://service_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/dashboard/ {
+        proxy_pass http://dashboard_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/chat/ {
+        proxy_pass http://chatbot_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/database/ {
+        proxy_pass http://database_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+}
+server {
+    listen       80 default_server;
+    listen  [::]:80 default_server;
+    server_name  _;
+    location /sv/routes/ {
+        proxy_pass http://nginx_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/admin/ {
+        proxy_pass http://admin_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/user/ {
+        proxy_pass http://user_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/service/ {
+        proxy_pass http://service_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/dashboard/ {
+        proxy_pass http://dashboard_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/chat/ {
+        proxy_pass http://chatbot_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+    location /sv/database/ {
+        proxy_pass http://database_api;
+        proxy_redirect     off;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Headers *;
+        add_header Access-Control-Allow-Methods *;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Host $server_name;
+    }
+}

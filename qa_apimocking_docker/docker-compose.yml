@@ -1,0 +1,126 @@
+version: "3"
+networks:
+  apinet:
+    external:
+      name: apinet # This assumes network is already created
+                     # If not, create it running "docker network create apinet"  
+services:
+    python_app:
+        build:
+          context: ./etc/python_app
+          dockerfile: Dockerfile
+        depends_on:
+            - cassandradb
+        networks:
+            - apinet
+        volumes:
+            - ./etc/python_app/newrelic.ini:/home/python/app/newrelic.ini
+        links:
+          - cassandradb
+        restart: unless-stopped
+        environment:
+            - TZ=America/Chicago 
+    nginx_app:
+        build:
+          context: ./etc/nginx_app
+          dockerfile: Dockerfile
+        networks:
+            - apinet
+        ports:
+          - 443:443
+          - 80:80
+        volumes:
+            - ./etc/nginx_app/nginx/sites-available:/etc/nginx/sites-available
+        restart: unless-stopped
+        environment:
+            - TZ=America/Chicago 
+    admin_app:
+        build:
+          context: ./etc/admin_app
+          dockerfile: Dockerfile
+        depends_on:
+            - cassandradb
+        networks:
+            - apinet
+        volumes:
+          - ./etc/admin_app/logs:/home/python/app/logs
+          - ./etc/admin_app/newrelic.ini:/home/python/app/newrelic.ini
+        links:
+          - cassandradb
+          - nginx_app
+        restart: unless-stopped
+        environment:
+            - TZ=America/Chicago 
+    user_app:
+        build: 
+          context: ./etc/user_app
+          dockerfile: Dockerfile
+        depends_on:
+            - cassandradb
+        networks:
+            - apinet
+        volumes:
+          - ./etc/user_app/logs:/home/python/app/logs
+          - ./etc/user_app/Resources/SSVLogo.png:/home/python/app/Resources/SSVLogo.png
+          - ./etc/user_app/newrelic.ini:/home/python/app/newrelic.ini
+        links:
+          - cassandradb
+        restart: unless-stopped
+        environment:
+            - TZ=America/Chicago 
+    service_app:
+        build: 
+          context: ./etc/service_app
+          dockerfile: Dockerfile
+        depends_on:
+            - cassandradb
+        networks:
+            - apinet
+        volumes:
+          - ./etc/service_app/logs:/home/python/app/logs
+          - ./etc/service_app/newrelic.ini:/home/python/app/newrelic.ini
+        links:
+          - cassandradb
+        restart: unless-stopped
+        environment:
+            - TZ=America/Chicago 
+    dashboard_app:
+        build: 
+          context: ./etc/dashboard_app
+          dockerfile: Dockerfile
+        depends_on:
+            - cassandradb
+        networks:
+            - apinet
+        volumes:
+            - ./etc/dashboard_app/newrelic.ini:/home/python/app/newrelic.ini
+        links:
+          - cassandradb
+        restart: unless-stopped
+        environment:
+            - TZ=America/Chicago
+    chatbot_app:
+        build: 
+          context: ./etc/chatbot_app
+          dockerfile: Dockerfile
+        networks:
+            - apinet
+        restart: unless-stopped
+        environment:
+            - TZ=America/Chicago
+    cassandradb:
+        build: 
+          context: ./etc/cassandra
+          dockerfile: Dockerfile
+        networks:
+            - apinet
+        ports:
+            - 7010:7000
+            - 9002:9042
+            - 8010:8010
+        volumes:
+          - ./etc/cassandra/conf/cassandra.yaml:/etc/cassandra/cassandra.yaml:rw
+          - ./etc/cassandra/data:/var/lib/cassandra:rw
+          - ./etc/cassandra/backups:/var/lib/backups:rw
+        environment:
+            - TZ=America/Chicago 

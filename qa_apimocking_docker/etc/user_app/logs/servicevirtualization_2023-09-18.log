@@ -1,0 +1,29 @@
+2023-09-18 15:14:11  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:14:11  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:14:11  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1MjIyODUxfQ.5xRnO1Oa5l47UVWvpI8VSHA-nMKWidZh4YZD2Zy39Yv0_PQ00RtGUU6pSIMKFKKWCPWFlyBSjcSS3MYVrOOOfQ by bearer type.
+2023-09-18 15:27:25  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:27:25  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:27:25  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1MjIzNjQ1fQ.FlxL-2wcUF76878uBdBNNTkj28JqYKA1WxQ_tpGMbI6JOlM7TS_k3QtyhwSD1JexuQVXPNhdR3aDFLAS0lfCPg by bearer type.
+2023-09-18 15:29:09  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:29:09  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:29:09  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1MjIzNzQ5fQ.ubBmrjmPmkXwKsUq1qO0n4PgjILGRjG83CSkretlnaJiVcV29Ra08DnmLOrbBm7SOPc2GlqrYJH_T-pO7mTV4A by bearer type.
+2023-09-18 15:35:28  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:35:28  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:35:28  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1MjI0MTI4fQ.dmYaKzyPdQptK-rHzAQm4gNq51PxI4mXvCdCs-aO715SWbVzW3MaA3CIKybj5PJ4r9038tFUGhvlzDKlt4wNbg by bearer type.
+2023-09-18 15:49:28  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:49:28  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:49:28  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1MjI0OTY4fQ.UrcKCo-R1gPv9dF3z__BQjqlQifg_Eg7tfgeYwRAvRl7YoeX7SXFoCK61QJJz8aOcYJkg9Wky0At4COY3BklOg by bearer type.
+2023-09-18 15:52:16  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:52:16  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:52:16  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1MjI1MTM2fQ.zEC8-aR7-snAlhjXhzMfU1Y0jfcX8c7qe_9tovxmJd14BogVQ6qshBF4_hP3B8zdKaHHltqALxVq2ka4a4FYNw by bearer type.
+2023-09-18 15:53:20  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:53:20  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 15:53:20  INFO Login by user mones17 by mones17, with email claudio.mones@solera.com and admin permission, access token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtb25lczE3IiwiZXhwIjoxNjk1MjI1MjAwfQ.5G5-yR63SNLHHTNIQBoFtSZTIFD1IOwIExOwJHc65BIBdw4BZbiFMBHC7DN0LH77s6-DgxwdwPLd0DhzwIAMdA by bearer type.
+2023-09-18 16:00:30  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 16:00:30  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 16:00:30  WARNING Complexity: Password must contain at least 1 special character. by user: usertest12.
+2023-09-18 19:51:18  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 19:51:18  WARNING Server warning: Aggregation query used without partition key
+2023-09-18 19:51:18  WARNING The user mones17 try to create user: usertest which is an existing user.
+2023-09-18 20:03:09  WARNING The user mones17 try to create user: usertest which is an existing user.
+2023-09-18 20:03:23  WARNING The user mones17 try to create user: usertest which is an existing user.

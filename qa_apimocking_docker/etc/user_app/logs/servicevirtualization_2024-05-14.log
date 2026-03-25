@@ -1,0 +1,3 @@
+2024-05-14 09:59:35  WARNING Try to login with inexisting user: cmones.
+2024-05-14 17:46:32  WARNING The user user.test@solera.com try to create user: usertest which is an existing user.
+2024-05-14 17:48:11  WARNING The user user.test@solera.com try to create user: usertest which is an existing user.

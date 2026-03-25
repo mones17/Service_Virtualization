@@ -1,0 +1,21 @@
+2023-09-13 22:27:26,013[:10] WARNING Server warning: Aggregation query used without partition key
+2023-09-13 22:27:26,017[:10] WARNING Server warning: Aggregation query used without partition key
+2023-09-13 22:27:26,018[:10] WARNING The user mones17 try to create an existing user testDeploy.
+2023-09-13 22:32:14,839 WARNING Server warning: Aggregation query used without partition key
+2023-09-13 22:32:14,843 WARNING Server warning: Aggregation query used without partition key
+2023-09-13 22:32:14,844 WARNING The user mones17 try to create an existing user testDeploy.
+2023-09-13 23:36:52,200 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:36:52,209 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:39:55,782 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:39:55,786 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:46:48,183 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:46:48,191 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:47:11,903 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:47:11,910 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:48:05,034 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:48:05,039 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:48:05,041 WARNING Password must contain at least 1 special character. at 23:46:14 UTC. 
+2023-09-13 23:49:03,615 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:49:03,622 WARNING Server warning: Aggregation query used without partition key 
+2023-09-13 23:49:35,400 WARNING The provided information is incomplete at 23:46:14 UTC. 
+2023-09-13 23:58:36,992[:10] WARNING Provided incomplete information by user: mones17 at 23:58:05 UTC.
